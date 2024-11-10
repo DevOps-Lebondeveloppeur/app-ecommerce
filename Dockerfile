@@ -6,6 +6,7 @@ WORKDIR /usr/src/app
 
 # Set environment variable
 ARG API_URL
+ENV API_URL=${API_URL}
 
 # Copy package.json and package-lock.json
 COPY package*.json ./
