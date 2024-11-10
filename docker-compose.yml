@@ -16,3 +16,6 @@ services:
 networks:
   app-ecommerce-network:
     driver: bridge
+
+
+# Build manually : docker build -t assidiwassimdev/app-ecommerce:latest --build-arg API_URL=https://api.lebondeveloppeur.net/api .

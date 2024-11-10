@@ -1,5 +1,5 @@
 # Use official Node.js 14 as base image
-FROM node:16.20.2-buster-slim as build
+FROM  --platform=linux/amd64 node:18 as build
 
 # Set working directory
 WORKDIR /usr/src/app
