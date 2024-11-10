@@ -20,7 +20,7 @@ COPY . .
 RUN npm run build
 
 
-FROM nginx:alpine
+FROM  --platform=linux/amd64 nginx:alpine
 # Copy the build artifacts from the build stage
 COPY --from=build /usr/src/app/dist /usr/share/nginx/html
 # NGINX default configuration file
