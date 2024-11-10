@@ -18,7 +18,7 @@ const SocialShare = props => {
 
   const shareMsg = `I ♥ ${
     product.name
-  } product on Le bon développeur - Store!  Here's the link, ${
+  } product on Le bon développeur 🇹🇳!  Here's the link, ${
     window.location.protocol !== 'https' ? 'http' : 'https'
   }://${window.location.host}/product/${product.slug}`;
 
